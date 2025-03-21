@@ -14,3 +14,7 @@ def index(request):
         ],
     }
     return render(request, 'index.html', context)
+
+#invoices view
+def invoice(request):
+    return render(request,'invoice.html')
