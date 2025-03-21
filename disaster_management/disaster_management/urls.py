@@ -4,6 +4,5 @@ from . import views  # Import views from the current app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('dashboard.urls')),
-   
+    path('',include('dashboard.urls')),  #dashboard is the app name  
 ]
